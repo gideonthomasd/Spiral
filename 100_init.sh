@@ -8,6 +8,7 @@ sudo bash -c "$(curl -fsSL https://git.io/JsADh || wget -q https://git.io/JsADh 
 pacstall -I appimagelauncher-deb
 pacstall -I balena-etcher-electron-deb
 pacstall -I brave-browser-deb
+pacstall -I moka-icon-theme
 #pacstall -I i3-gaps
 #pacstall -I i3lock-color
 pacstall -I starship-bin
