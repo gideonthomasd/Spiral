@@ -126,6 +126,7 @@ cp settings.ini ~/.config/gtk-3.0/settings.ini
 
 cp Xresources ~/.Xresources
 
+mkdir -p ~/.config/neofetch
 cd neofetch-themes
 cd normal
 cp config.conf ~/.config/neofetch/config.conf
