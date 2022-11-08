@@ -17,7 +17,7 @@ chosen="$(echo -e "$options" | rofi -lines 8 -dmenu -p "power" -font "mononoki N
 case $chosen in
     $option0)
 		#i3-msg exit;;
-		pkill dwm || pkill i3 || pkill bspwm || pkill openbox || pkill herbstluftwm || pkill awesome || pkill qtile ;;
+		pkill dwm || pkill i3 || pkill bspwm || pkill openbox || pkill herbstluftwm || pkill awesome || pkill qtile || pkill python;;
     $option1)
         i3lock-fancy;;
     $option2)
