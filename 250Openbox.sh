@@ -1,6 +1,6 @@
 #!/bin/bash
 
-sudo apt install openbox obconf tint2 plank parcellite
+sudo apt install openbox obconf tint2 plank parcellite rofi
 
 mkdir -p ~/.config/openbox
 
