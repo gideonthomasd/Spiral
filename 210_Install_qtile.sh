@@ -15,3 +15,5 @@ mkdir -p ~/.config/qtile
 cd qtile
 cp -r * ~/.config/qtile
 cd ..
+
+pip install psutil
